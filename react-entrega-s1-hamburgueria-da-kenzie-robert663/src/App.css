@@ -40,12 +40,6 @@ hr{
     height: 353px;
     width: 30%;
   }
-  .CartBlock{
-    position: absolute;
-    right: 5%;
-    width: 30%;
-    top: 9.5%;
-  }
   .ProdList{
     width: 62%;
     overflow: none;
