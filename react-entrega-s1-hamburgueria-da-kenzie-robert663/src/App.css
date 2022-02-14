@@ -1,0 +1,88 @@
+.sumPrices{
+  position:absolute;
+  bottom: -35%;
+  right: 7%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #828282;
+}
+
+hr{
+  color: black;
+  position: absolute;
+  bottom: -31%;
+  width: 88%;
+  left: 5%;
+}
+.total{
+  position: absolute;
+  bottom: -37%;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+}
+.ButtonRemover{
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  padding: 10px;
+  bottom: -42%;
+}
+
+@media  (min-width: 720px ){
+  .ProdLi{
+    height: 353px;
+    width: 30%;
+  }
+  .CartBlock{
+    position: absolute;
+    right: 5%;
+    width: 30%;
+    top: 9.5%;
+  }
+  .ProdList{
+    width: 62%;
+    overflow: none;
+    flex-wrap: wrap;
+    overflow-x: visible;
+  }
+  .CartProd{
+    position: absolute;
+    right: 2%;
+    width: 34%;
+    top: 16%;
+  }
+  .ButtonRemover{
+    position: absolute;
+    width: 30%;
+    left: 64%;
+    margin-bottom: 400px;
+  }
+  hr{
+    color: black;
+    position: absolute;
+    bottom: 15%;
+    width: 26%;
+    left: 66%;
+  }
+  .total{
+    position: absolute;
+    bottom: 10%;
+    right: 31%;
+  }
+  .sumPrices{
+    bottom: 11.5%;
+    right: 13%;
+  }
+  header{
+    position: absolute;
+    left: 10%;
+    top: 2%;
+  }
+}

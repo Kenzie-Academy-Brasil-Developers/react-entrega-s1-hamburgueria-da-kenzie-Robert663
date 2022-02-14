@@ -1,0 +1,18 @@
+.ProdList{
+    display:flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    width: 85%;
+    height: 361px;
+    left: 16px;
+    top: 229px;
+
+}
+
+ul::-webkit-scrollbar{
+    display: none;
+}
+
+
+@media  (min-width: 720px ){
+}

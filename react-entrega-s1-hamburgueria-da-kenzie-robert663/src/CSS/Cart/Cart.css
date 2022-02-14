@@ -1,0 +1,42 @@
+.Cart{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 12px;
+    padding: 0px 10px;
+    width: 94%;
+    height: 470px;
+    border-radius: 0px 0px 5px 5px;
+    overflow-y: scroll;
+}
+.Cart::-webkit-scrollbar{
+    display: none;
+}
+.CartBlock{
+    border: 2px solid #27AE60;
+    background: #27AE60;
+    border-radius: 5px 5px 0px 0px;
+    width: 91.5%;
+    margin-left: 20px;
+}
+.h2Cart{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media  (min-width: 720px ){
+    .CartBlock{
+        position: absolute;
+        right: 5%;
+        width: 30%;
+        top: 13.5%;
+      }
+      .Cart{
+        position: absolute;
+        right: 30%;
+      }
+}

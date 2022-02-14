@@ -1,0 +1,28 @@
+.cartImgHeader{
+    background-color: #F5F5F5;
+}
+.Removed{
+    display: none;
+}
+.CartImage{
+    width: 70px;
+    height: 70px;
+}
+.CartList{
+    display:flex;
+    flex-direction: row;
+    max-width: 357.31px;
+}
+
+.buttonCart{
+    border: none;
+    background: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #BDBDBD;
+    position: absolute;
+    right: 10%;
+}

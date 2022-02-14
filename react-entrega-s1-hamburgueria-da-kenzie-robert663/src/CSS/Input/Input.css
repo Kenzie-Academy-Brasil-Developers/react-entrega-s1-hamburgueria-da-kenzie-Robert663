@@ -1,0 +1,35 @@
+.inputText{
+    align-items: center;
+    padding: 0px 10px 0px 15px;
+    width: 91%;
+    height: 60px;
+    background: #FFFFFF;    
+    border: 2px solid #333333;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+label{
+    position: relative;
+    left: 7%;
+}
+.buttonInput{ 
+    position: absolute;
+    bottom: -60%;
+    right: 3%;
+    background: #27AE60;
+    border: 2px solid #27AE60;
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 107px;
+    height: 40px;
+}
+
+@media (min-width: 720px){
+    label{
+        left: 65%;
+      }
+      .inputText{
+        width: 30%;
+        margin-top: 10px;
+      }
+}
