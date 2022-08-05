@@ -10,7 +10,7 @@ const Product = ({children, sendToCart}) => {
                 </div>
             <h2>{children.name}</h2> 
             <p>{children.category}</p>
-            <span>{children.price}</span>
+            <span>R$ {children.price.toFixed(2).replace('.', ',')}</span>
             <Button onClick = {sendToCart} value = {children.id} className= 'buttonProd'>Adicionar</Button>
         </li>
     )
