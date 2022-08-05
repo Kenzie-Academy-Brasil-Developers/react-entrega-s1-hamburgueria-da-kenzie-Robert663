@@ -1,11 +1,9 @@
 import Button from '../Button/Button';
-import App from '../../App';
 import '../../CSS/CartProd/CartProd.css';
-import Cart from '../Cart/Cart';
-const CartProd = ({children}) => {
+const CartProd = ({children, onClick, index}) => {
 
     return (
-        <li className='CartList'>
+        <li className='CartList' index={index}>
             <div className='cartImgHeader'>
             <img className='CartImage' src = {children.img}></img>
             </div>
@@ -13,7 +11,7 @@ const CartProd = ({children}) => {
             <h2>{children.name}</h2> 
             <p>{children.category}</p>
             </div>
-            <Button className = 'buttonCart' >Deletar</Button>
+            <Button className = 'buttonCart' onClick={onClick}>Deletar</Button>
         </li>
     )
 }
